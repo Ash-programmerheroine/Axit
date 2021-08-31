@@ -1,1 +1,40 @@
 /* ===Google Fonts==== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+/* ====
+Global Css
+====== */
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+h1, h2, h3, h4,h5, h6{font-family: 'Raleway', sans-serif;}
+a{text-decoration: none;}
+ul{padding: 0;margin: 0;
+    list-style: none;
+}
+.padding-zero{padding: 0;}
+
+
+/* ================
+Header Section Css
+================== */
+header{background: #000;
+border-bottom: 1px solid #fff;}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {     font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #b0b0b0;
+    margin: 16px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #b0b0b0;
+    margin: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#ff8b38;
+    
+}
