@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Axit homepage</title>
+
+  <!-- Owl Carousel CSS -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
   
   <!-- Font Awesome CDN link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,19 +50,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Features</a>
+                          <a class="nav-link active" aria-current="page" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
+                          <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
+                          <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Reviews</a>
+                          <a class="nav-link" href="#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
+                          <a class="nav-link" href="#contact">Contact</a>
                         </li>
                       </ul>
                       </div>
@@ -147,7 +151,7 @@
 
 
   <!-- Features section START -->
-  <div class="features">
+  <div class="features" id="features">
     <div class="container">
       <div class="row">
         <!-- Tab Option -->
@@ -160,7 +164,7 @@
         </div>
 
         <!-- Content Option -->
-        <div class="col-lg-5 offset-lg-1 animate__animated animate__fadeInUp animate__delay-4s animate_slower">
+        <div class="col-lg-5 offset-lg-1 m-top-25 animate__animated animate__fadeInUp animate__delay-4s animate_slower">
           
           <!-- Content -1 -->
           <div id="content-one">
@@ -293,7 +297,7 @@
   <!-- Third Features section END -->
 
   <!-- Our Process Section START -->
-  <section class="our-process">
+  <section class="our-process" id="about">
     <div class="container">
       <!-- Heading Row -->
       <div class="row">
@@ -316,7 +320,7 @@
         </div>
         <div class="col-lg-4">
           <img src="images/well-crafted-icon.gif" alt="well-crafted-icon" class="img-fluid">
-          <h4>thoughtful design</h4>
+          <h4>well crafted</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Aenean euismod bibendum laoreet. Proin gravida 
             dolor sit amet lacus accumsan et viverra.
@@ -324,7 +328,7 @@
         </div>
         <div class="col-lg-4">
           <img src="images/easy-to-customize-icon.gif" alt="easy-to-customize-icon" class="img-fluid">
-          <h4>thoughtful design</h4>
+          <h4>easy to customize</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Aenean euismod bibendum laoreet. Proin gravida 
             dolor sit amet lacus accumsan et viverra.
@@ -337,12 +341,12 @@
 
 
   <!-- Pricing section START -->
-  <div class="pricing">
+  <div class="pricing" id="pricing">
     <div class="container">
 
       <!-- Heading Row -->
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 pricing-heading">
           <h2>Pricing Options</h2>
           <div class="title-underline"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -350,14 +354,176 @@
       </div>
 
       <!-- Pricing Card Row -->
-      <div class="row">
-        <div class="col-lg-4">
-          
+      <div class="row m-top-100">
+
+        <!-- pricing card basic -->
+        <div class="col-lg-4 card-down-style">
+          <div class="pricing-table">
+            <div class="pricing-head">
+              <h4>Basic</h4>
+              <h2><span>$</span>0</h2>
+              <p>Free for Life</p>
+              <h3  class="nothing-in-box"></h3>
+            </div>
+            <div class="pricing-body">
+              <ul >
+                <li>1 GB of space</li>
+                <li>10 gb of band width</li>
+                <li>3 websites</li>
+                <li>Basic Customization</li>
+                <li>Wordpress intregation</li>
+                <li>email support</li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+        <!-- pricing card Professional -->
+        <div class="col-lg-4">
+          <div class="pricing-table">
+            <div class="pricing-head">
+              <h4>Professional</h4>
+              <h2><span>$</span>19</h2>
+              <p>Monthly Payment</p>
+              <h3>Our Most Popular</h3>
+            </div>
+            <div class="pricing-body">
+              <ul >
+                <li>5 GB of space</li>
+                <li>50 gb of band width</li>
+                <li>12 websites</li>
+                <li>Advanced Customization</li>
+                <li>Wordpress intregation</li>
+                <li>email support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- pricing card Enterprise -->
+        <div class="col-lg-4 card-down-style">
+          <div class="pricing-table">
+            <div class="pricing-head">
+              <h4>Enterprise</h4>
+              <h2><span>$</span>70</h2>
+              <p>Monthly Payment</p>
+              <h3 class="nothing-in-box"></h3>
+            </div>
+            <div class="pricing-body">
+              <ul >
+                <li>Unlimited space</li>
+                <li>Unlimited band width</li>
+                <li>100 websites</li>
+                <li>Advanced Customization</li>
+                <li>Wordpress intregation</li>
+                <li>24/7 Customer Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
   <!-- Pricing section END -->
+
+
+  <!-- Testimonial section START  -->
+  <section class="testimonial" id="reviews">
+    <div class="container">
+
+      <!-- Heading Row -->
+      <div class="row">
+        <div class="col-lg-12 testimonial-heading">
+          <h2>What Our Customers Are Saying</h2>
+          <div class="title-underline"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- slider testimonial section Row -->
+      <div class="row m-top-100">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-theme">
+            
+            <!-- item 1 -->
+            <div class="item">
+              <div class="testimonial-content">
+                <p>Lorem ipsum dolor sit amet, 
+                  consectetur adipisicing elit. Doloribus 
+                  accusamus expedita repellat similique 
+                  odio aspernatur ex, architecto eaque 
+                  quo suscipit.
+                </p>
+                <div class="shape"></div>
+              </div>
+              <div class="writer m-top-30">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="images/jeremy-manager-img.gif" alt="jeremy-manager-img" class="img-fluid">
+                  </div>
+                  <div class="col-lg-8  m-top-30">
+                    <h4>Jeremy H.</h4>
+                    <p>Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="item">
+              <div class="testimonial-content">
+                <p>Lorem ipsum dolor sit amet, 
+                  consectetur adipisicing elit. Doloribus 
+                  accusamus expedita repellat similique 
+                  odio aspernatur ex, architecto eaque 
+                  quo suscipit.
+                </p>
+                <div class="shape"></div>
+              </div>
+              <div class="writer  m-top-30">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="images/jeremy-manager-img.gif" alt="jeremy-manager-img" class="img-fluid">
+                  </div>
+                  <div class="col-lg-8  m-top-30">
+                    <h4>Jhon H.</h4>
+                    <p>Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="item">
+              <div class="testimonial-content">
+                <p>Lorem ipsum dolor sit amet, 
+                  consectetur adipisicing elit. Doloribus 
+                  accusamus expedita repellat similique 
+                  odio aspernatur ex, architecto eaque 
+                  quo suscipit.
+                </p>
+                <div class="shape"></div>
+              </div>
+              <div class="writer  m-top-30">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="images/jeremy-manager-img.gif" alt="jeremy-manager-img" class="img-fluid">
+                  </div>
+                  <div class="col-lg-8  m-top-30">
+                    <h4>susan W.</h4>
+                    <p>Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial section END  -->
 
 
   <!-- Custom section START -->
@@ -380,7 +546,7 @@
 
 
   <!-- Contact us section START -->
-  <section class="contact-us">
+  <section class="contact-us" id="contact">
     <div class="container">
       <!-- Heading Row -->
       <div class="row">
@@ -435,6 +601,9 @@
 
   <!-- Bootstrap JS CDN Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Owl Carousel JS -->
+	<script src="js/owl.carousel.min.js"></script>
   
   <!-- custom JS Link -->
   <script src="js/main.js"></script>

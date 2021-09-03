@@ -1,4 +1,21 @@
-/* ===Google Fonts==== */
+/* ====author====
+Name:Ashrafi Khanam
+Email:ashrafikhanam.18@gmail.com
+Phone:017xxxxxxxxx
+Website: ashrafikhanam.com
+ */
+
+
+/* ======color used in template=====
+    1. orange color - #ff8b38
+    2. light-gray-#dedede,#9d9d9f,#b0b0b0,#ccc
+    3. Black color - #000, #333
+    4. gray color -#f5f5f5
+    5.white-#fff           -
+ */
+
+
+/* ===Google Fonts: OpenSans + Raleway==== */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
 
 /* ====
@@ -16,6 +33,7 @@ ul{padding: 0;
 }
 .padding-zero{padding: 0;}
 .m-top-25{margin-top:25px}
+.m-top-30{margin-top:30px}
 .m-top-100{margin-top:100px}
 .title-underline{
     height: 2px;
@@ -167,11 +185,10 @@ Social Media Section Css
     padding-bottom: 12px;
 }
 .social-media p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     color: #9d9d9f;
     margin: 0;
-    padding-right: 47px;
 }
 .social-media li{display: inline;}
 .social-media li .fa{
@@ -191,12 +208,12 @@ Features Section Css
     padding: 170px 0;
     background: #f5f5f5;
 }
-.features h4{ 
+.features h4 {
     font-size: 22px;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 65px;
-}  
+    padding-bottom: 46px;
+} 
 .features .features-option li{
     background: #333;
     color: #fff;
@@ -219,7 +236,7 @@ Features Section Css
     font-weight: 300;
     color: #9d9d9f;  
     margin: 0;
-    padding-bottom: 45px;
+    padding-bottom: 22px;
 }
 .features .orange-btn-download{
     position: relative;
@@ -257,6 +274,8 @@ Second Features Section Css
 .features-second{padding: 120px 0;}
 .features-second .features-second-img{
     box-shadow: 2px 10px 16px grey;
+    display: block;
+    margin: 0 auto;
 }
 .features-second .title-icon-img{display: block;margin: 0 auto;}
 .features-second h4{
@@ -284,7 +303,8 @@ Third Features Section Css
 }
 .features-third .features-third-img{
     box-shadow: 2px 10px 16px grey;
-    float: right;
+    display: block;
+    margin: 0 auto;
 }
 .features-third h4{
     font-size: 22px;
@@ -314,7 +334,7 @@ Our Process Section Css
 }
 .our-process p{
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     color: #9d9d9f;  
     margin: 0;
@@ -333,6 +353,7 @@ Our Process Section Css
     margin: 0;
     text-align: center;
     padding: 20px 0 ;
+    text-transform: capitalize;
 }
 
 /* ===================
@@ -347,19 +368,127 @@ Pricing Section Css
    display: block;
    margin: 30px auto;
 }
-.pricing h2 {
+.pricing .pricing-heading h2 {
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0;
 }
-.pricing p{
+.pricing .pricing-heading p{
     font-size: 18px;
     font-weight: 300;
     color: #9d9d9f;  
     margin: 0;
 }
+.pricing-table .pricing-head{
+    background:#333;
+    color: #fff;
+}
+.pricing-table .pricing-head h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+.pricing-table .pricing-head h2{    
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 0 0;
+}
+.pricing-head h2 span{
+    font-size: 36px;
+}
+.pricing-table .pricing-head p{
+    margin: 0;
+    font-size: 16px;
+    padding: 0 0 35px;
+    font-weight: 600;
+    color:#9d9d9f;
+    font-style: italic;
+}
+.pricing-table .pricing-head h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    background: #ff8b38;
+    margin: 0;
+}
+.pricing-table .pricing-head .nothing-in-box{
+    padding: 6px 0;
+}
+.pricing-table .pricing-body{
+    background:#fff;
+}
+.pricing-body ul li{
+    padding: 16px 0;
+    color: #a4a5a8;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #f5f5f5;
+}
+.card-down-style{transform: translateY(41px);}
 
+/* ===================
+Testimonial section Css
+====================== */
+.testimonial{
+    padding: 120px 0;
+}
+.testimonial .testimonial-heading h2{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+.testimonial .testimonial-heading .title-underline{
+    display: block;
+    margin: 30px auto;
+}
+.testimonial .testimonial-heading p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #9d9d9f;  
+    margin: 0;
+}
+.testimonial .testimonial-content{
+    position: relative;
+    background: #f5f5f5;
+    width: 375px;
+}
+.testimonial .testimonial-content p {
+    font-size: 16px;
+    font-style: italic;
+    padding: 21px 25px;
+    font-weight: 300;
+    margin: 0;
+}
+.testimonial .testimonial-content .shape{
+    position: absolute;
+    left:50px;
+    bottom:-10px; 
+    height:20px;
+    width:20px;
+    background: #f5f5f5;
+    transform: rotate(45deg);
+}
+.testimonial .writer h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 12px 0;
+}
+.testimonial .writer p{
+    color:#9d9d9f ;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
 
 /* ===================
 Custom section Css
@@ -383,7 +512,7 @@ Custom section Css
 .custom-sec p{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #9d9d9f;  
     margin: 0;text-align: center;
 }
@@ -466,6 +595,7 @@ Contact Us section Css
     left: 0%; 
     transition:all .4s ease-in-out;
 }
+
 /* ===================
 Footer section Css
 ====================== */
@@ -492,4 +622,191 @@ footer p{
     font-size:14px;
     font-weight:300;
     padding-top: 20px;
+}
+
+/* ===================
+Media Query for Mobile 
+====================== */
+@media (min-width:320px) and (max-width:576px){
+    .m-top-25{margin-top: 100px;}
+    .m-top-100{margin-top: 50px;}
+    .form-control{display: block;}
+    .navbar-light .navbar-nav .nav-link {text-align: center;}
+    .navbar-light .navbar-toggler {background:#ff8b38;padding:0;}
+    .banner{padding: 75px 0;}
+    .banner img {padding: 30px 0 0; display: block; margin: 0 auto;}
+    .banner h1 { font-size: 28px;font-weight: 400;padding: 50px 0;text-align: center;}
+    .underline { width: 80px; display: block;margin: 0px auto;}
+    .banner p {font-size: 16px;margin: 38px 0;padding: 0px;text-align: justify;}
+    .banner .btn-download{display: block;margin:0 auto}
+    .banner h2 {font-size: 22px;}
+    .social-media { padding: 50px 0;}
+    .social-media h4 {text-align: center;}
+    .social-media p{font-size: 16px;text-align: center;padding-right: 0;padding: 20px;}
+    .social-media li {display: block; text-align: center;}
+    .social-media li .fa { font-size: 80px;padding: 12px 0;margin: 0px;}
+    .features {padding: 75px 0;}
+    .features .features-option li {font-size: 18px;width: 55%;padding: 20px 0;}
+    .features h4{ padding-bottom: 25px; text-align: center;}
+    .features p { font-size: 16px;padding-bottom: 30px;text-align: justify;}
+    .features .orange-btn-download { display: block; margin: 0 auto;}
+    .features img {padding: 100px 0 0px;display: block;margin: 0 auto;}
+    .features-second {padding: 100px 0;}
+    .features-second h4{text-align: center;}
+    .features-second p{font-size:16px;text-align: center;}
+    .title-underline {display: block; margin: 35px auto;}
+    .features-second .features-second-img { display: block; margin: 0 auto 50px;}
+    .features-second h6 {font-size: 18px; padding: 20px 0;text-align: center;}
+    .features-third h4{text-align: center;}
+    .features-third p{font-size:16px;text-align: center;}
+    .features-third .features-third-img { display: block; margin: 80px auto 0;}
+    .our-process {padding: 75px 0;}
+    .our-process h2 {font-size: 30px;}
+    .our-process h4{font-size: 20px;}
+    .our-process p {font-size: 16px;padding: 10px 0 45px;}
+    .pricing .pricing-heading h2 { font-size: 30px;}
+    .pricing .pricing-heading p {font-size: 16px;}
+    .card-down-style {padding-bottom: 80px;}
+    .testimonial {padding: 75px 0;}
+    .testimonial .testimonial-heading h2 {font-size: 30px}
+    .testimonial .testimonial-heading p {font-size: 16px;}
+    .testimonial .testimonial-content{width: 100%;}
+    .testimonial .testimonial-content p {font-size: 12px;padding: 4px 4px;}
+    .owl-carousel .owl-item img{  width: 70%; margin: 0 auto;}
+    .testimonial .writer h4{ font-size: 16px;margin: 0 6px;text-align: center;}
+    .testimonial .writer p{font-size: 9px; text-align: center;}
+    .custom-sec h2 {font-size: 30px;}
+    .custom-sec p{font-size: 16px;}
+    .contact-us {padding: 75px 0;}
+    .contact-us h2 {font-size: 30px;}
+    .contact-us p{font-size: 16px;}
+    .custom-sec .btn-download { font-size: 16px;}
+    .contact-us .send-msg-btn { font-size: 16px;}
+    .footer-social-media li .fa {font-size: 22px;}
+    footer p{font-size: 12px;}
+}
+
+/* ===================
+Media Query for Tab 
+====================== */
+@media (min-width:576px) and (max-width:768px){
+    .m-top-25{margin-top: 100px;}
+    .m-top-100{margin-top: 50px;}
+    .form-control{display: block;}
+    .navbar-light .navbar-nav .nav-link {text-align: center;}
+    .navbar-light .navbar-toggler { background:#ff8b38;}
+    .banner{padding: 75px 0;}
+    .banner img {padding: 30px 0 0; display: block; margin: 0 auto;}
+    .banner h1 { font-size: 28px;font-weight: 400;padding: 50px 0;text-align: center;}
+    .underline { width: 80px; display: block;margin: 0px auto;}
+    .banner p {font-size: 16px;margin: 38px 0;padding: 0px;text-align: justify;}
+    .banner .btn-download{display: block;margin:0 auto}
+    .banner h2 {font-size: 22px;}
+    .social-media { padding: 50px 0;}
+    .social-media h4 {text-align: center;}
+    .social-media p{font-size: 16px;text-align: center;padding-right: 0;padding: 20px;}
+    .social-media li { text-align: center;}
+    .social-media li .fa { font-size: 54px; padding: 12px 0; margin: 0 12px;}
+    .features {padding: 75px 0;}
+    .features .features-option li {font-size: 18px;width: 55%;padding: 20px 0;}
+    .features h4{ padding-bottom: 25px; text-align: center;}
+    .features p { font-size: 16px;padding-bottom: 30px;text-align: justify;}
+    .features .orange-btn-download { display: block; margin: 0 auto;}
+    .features img {padding: 100px 0 0px;display: block;margin: 0 auto;}
+    .features-second {padding: 100px 0;}
+    .features-second h4{text-align: center;}
+    .features-second p{font-size:16px;text-align: center;}
+    .title-underline {display: block; margin: 35px auto;}
+    .features-second .features-second-img { display: block; margin: 0 auto 50px;}
+    .features-second h6 {font-size: 18px; padding: 20px 0;text-align: center;}
+    .features-third h4{text-align: center;}
+    .features-third p{font-size:16px;text-align: center;}
+    .features-third .features-third-img { display: block; margin: 80px auto 0;}
+    .our-process {padding: 75px 0;}
+    .our-process h2 {font-size: 30px;}
+    .our-process h4{font-size: 20px;}
+    .our-process p {font-size: 16px;padding: 10px 0 45px;}
+    .pricing .pricing-heading h2 { font-size: 30px;}
+    .pricing .pricing-heading p {font-size: 16px;}
+    .card-down-style {padding-bottom: 80px;}
+    .testimonial {padding: 75px 0;}
+    .testimonial .testimonial-heading h2 {font-size: 30px}
+    .testimonial .testimonial-heading p {font-size: 16px;}
+    .testimonial .testimonial-content{width: 100%;}
+    .testimonial .testimonial-content p {font-size: 12px;padding: 4px 4px;}
+    .owl-carousel .owl-item img{  width: 70%; margin: 0 auto;}
+    .testimonial .writer h4{ font-size: 16px;margin: 0 6px;text-align: center;}
+    .testimonial .writer p{font-size: 9px; text-align: center;}
+    .custom-sec h2 {font-size: 30px;}
+    .custom-sec p{font-size: 16px;}
+    .contact-us {padding: 75px 0;}
+    .contact-us h2 {font-size: 30px;}
+    .contact-us p{font-size: 16px;}
+    .custom-sec .btn-download { font-size: 16px;}
+    .contact-us .send-msg-btn { font-size: 16px;}
+    .footer-social-media li .fa {font-size: 22px;}
+    footer p{font-size: 12px;}
+}
+
+/* ===================
+Media Query for Notebook
+====================== */
+@media (min-width:576px) and (max-width:992px){
+    ul{text-align: center;}
+    .m-top-25{margin-top: 100px;}
+    .m-top-100{margin-top: 50px;}
+    .form-control{display: block;}
+    .navbar-light .navbar-nav .nav-link {text-align: center;}
+    .navbar-light .navbar-toggler { background:#ff8b38;}
+    .banner{padding: 75px 0;}
+    .banner img {padding: 30px 0 0; display: block; margin: 0 auto;}
+    .banner h1 { font-size: 28px;font-weight: 400;padding: 50px 0;text-align: center;}
+    .underline { width: 80px; display: block;margin: 0px auto;}
+    .banner p {font-size: 16px;margin: 38px 0;padding: 0px;text-align: justify;}
+    .banner .btn-download{display: block;margin:0 auto}
+    .banner h2 {font-size: 22px;}
+    .social-media { padding: 50px 0;}
+    .social-media h4 {text-align: center;}
+    .social-media p{font-size: 16px;text-align: center;padding-right: 0;padding: 20px;}
+    .social-media li { text-align: center;}
+    .social-media li .fa { font-size: 54px; padding: 12px 0; margin: 0 12px;}
+    .features {padding: 75px 0;}
+    .features .features-option li {font-size: 18px;width: 55%;padding: 20px 0;}
+    .features h4{ padding-bottom: 25px; text-align: center;}
+    .features p { font-size: 16px;padding-bottom: 30px;text-align: justify;}
+    .features .orange-btn-download { display: block; margin: 0 auto;}
+    .features img {padding: 100px 0 0px;display: block;margin: 0 auto;}
+    .features-second {padding: 100px 0;}
+    .features-second h4{text-align: center;}
+    .features-second p{font-size:16px;text-align: center;}
+    .title-underline {display: block; margin: 35px auto;}
+    .features-second .features-second-img { display: block; margin: 0 auto 50px;}
+    .features-second h6 {font-size: 18px; padding: 20px 0;text-align: center;}
+    .features-third h4{text-align: center;}
+    .features-third p{font-size:16px;text-align: center;}
+    .features-third .features-third-img { display: block; margin: 80px auto 0;}
+    .our-process {padding: 75px 0;}
+    .our-process h2 {font-size: 30px;}
+    .our-process h4{font-size: 20px;}
+    .our-process p {font-size: 16px;padding: 10px 0 45px;}
+    .pricing .pricing-heading h2 { font-size: 30px;}
+    .pricing .pricing-heading p {font-size: 16px;}
+    .card-down-style {padding-bottom: 80px;}
+    .testimonial {padding: 75px 0;}
+    .testimonial .testimonial-heading h2 {font-size: 30px}
+    .testimonial .testimonial-heading p {font-size: 16px;}
+    .testimonial .testimonial-content{width: 100%;}
+    .testimonial .testimonial-content p {font-size: 12px;padding: 4px 4px;}
+    .owl-carousel .owl-item img{  width: 70%; margin: 0 auto;}
+    .testimonial .writer h4{ font-size: 16px;margin: 0 6px;text-align: center;}
+    .testimonial .writer p{font-size: 9px; text-align: center;}
+    .custom-sec h2 {font-size: 30px;}
+    .custom-sec p{font-size: 16px;}
+    .contact-us {padding: 75px 0;}
+    .contact-us h2 {font-size: 30px;}
+    .contact-us p{font-size: 16px;}
+    .custom-sec .btn-download { font-size: 16px;}
+    .contact-us .send-msg-btn { font-size: 16px;}
+    .footer-social-media li .fa {font-size: 22px;}
+    footer p{font-size: 12px;}
 }
