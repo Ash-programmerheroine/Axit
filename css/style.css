@@ -751,7 +751,7 @@ Media Query for Tab
 /* ===================
 Media Query for Notebook
 ====================== */
-@media (min-width:576px) and (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
     ul{text-align: center;}
     .m-top-25{margin-top: 100px;}
     .m-top-100{margin-top: 50px;}
